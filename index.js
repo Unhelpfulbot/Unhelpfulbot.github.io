@@ -72,7 +72,7 @@ window.addEventListener('load', () => {
   setphotos();
 })
 
-var displaycount = 20;
+var displaycount = 30;
 var photolength;
 
 function setphotos() {

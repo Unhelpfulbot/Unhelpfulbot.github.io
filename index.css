@@ -54,7 +54,7 @@ body{
 
 .directbutton-container{
     width: 25%;
-    height: 60px;
+    height: 6vw;
     margin-left: 4.17%;
     margin-right: 4.17%;
     border: solid white 3px;
@@ -63,7 +63,7 @@ body{
     color: white;
     font-family: "Montserrat";
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 
 .directbutton{
@@ -176,7 +176,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    height: 15%;
+    height: 50vh;
     overflow-y: scroll;
     margin: 10%;
     margin-bottom: 0;
@@ -306,7 +306,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    height: 15%;
+    height: 90vh;
     overflow-y: scroll;
     margin: 10%;
     margin-bottom: 0;

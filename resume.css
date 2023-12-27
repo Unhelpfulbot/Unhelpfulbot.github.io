@@ -23,7 +23,7 @@ body{
     width: 10vw;
     height: 10vw;
     padding: 0;
-    border: solid white 5px;
+    border: solid white 0.25vw;
 }
 
 #name-role{
