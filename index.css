@@ -1,0 +1,363 @@
+body{
+    width: 100%;
+    height: 5100px;
+    padding: 0;
+    margin: 0;
+    background: rgb(0, 0, 0);
+}
+
+/*Default Page*/
+.default-screen{
+    width: 80%;
+    border: solid white 5px;
+    margin: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+#intro{
+    padding: 20px;
+}
+
+#short-desc{
+    margin-left: 30px;
+}
+
+#desc-title{
+    color: white;
+    font-family: "Montserrat";
+    font-size: 24px;
+}
+
+#desc-text{
+    color: white;
+    font-family: "Montserrat";
+    font-size: 14px;
+}
+
+#potrait{
+    width: 30%;
+    height: auto;
+    border: solid white 3px;
+}
+
+#director{
+    width: 75%;
+    display: flex;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.directbutton-container{
+    width: 25%;
+    height: 60px;
+    margin-left: 4.17%;
+    margin-right: 4.17%;
+    border: solid white 3px;
+    border-radius: 30px;
+    background: none;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+.directbutton{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+.directbutton-container:hover{
+    background: grey;
+}
+
+/* Second Screen */
+#second-title{
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 5vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 5%;
+}
+
+.second-screen{
+    position: relative;
+    width: 80%;
+    border: solid rgb(225, 225, 225) 5px;
+    border-radius: 80px;
+    height: 30vw;
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#coming-proj{
+    position: absolute;
+    left: 0px;
+    display: flex;
+    width: 320vw;
+    height: 100%;
+}
+
+#img-caption{
+    position: relative;
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#proj-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+}
+
+.proj-button{
+    position: absolute;
+    width: 60%;
+    height: auto;
+    color: white;
+    text-shadow: 1px 1px 1px black, 2px 2px 1.5px gray;
+    background: none;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 5vw;
+    font-weight: 900;
+}
+
+/* Third Screen */
+
+#third-title{
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 5vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 5%;
+}
+
+#third-desc{
+    display: flexbox;
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.third-screen{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 15%;
+    overflow-y: scroll;
+    margin: 10%;
+    margin-bottom: 0;
+    justify-content: center;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+}
+
+#gallery-col{
+    display: flex;
+    width: 100%;
+    height: 6vw;
+    justify-content: center;
+}
+
+#col-but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px rgba(57, 57, 57, 0.95);
+    width: 8vw;
+    height: 8vw;
+    border-radius: 4vw;
+    margin: 2vw;
+}
+
+#col-img{
+    width: 70%;
+    height: 70%;
+}
+
+    /* For 4 Columns */
+.columns{
+    flex: 20%;
+    padding: 0 4px;
+}
+
+#display-container{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#displayed{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#displayed:hover{
+    filter: blur(3px);
+}
+
+#display-title{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight: 800;
+    color: rgb(255, 255, 255, 0);
+    font-size: 1vw;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#display-container:hover > #display-title{
+    color: rgb(255, 255, 255);
+}
+
+    /* Responsive layout - two column-layout */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+    /* Responsive layout - one column*/
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 80%;
+      max-width: 100%;
+    }
+}
+
+#load-more{
+    width: 80%;
+    margin: 10%;
+    margin-top: 0;
+    margin-bottom: 2%;
+    border: 5px solid black;
+    border-top: none;
+    background: rgb(45, 45, 45);
+    color: White;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 4vw;
+}
+
+/* Fourth Screen */
+#fourth-title{
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 5vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 5%;
+}
+
+#fourth-desc{
+    display: flexbox;
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.fourth-screen{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 15%;
+    overflow-y: scroll;
+    margin: 10%;
+    margin-bottom: 0;
+    justify-content: center;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+}
+
+.columns2{
+    flex: 40%;
+    padding: 0 4px;
+}
+
+#display-container2{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+
+#display-title2{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight: 800;
+    color: rgb(255, 255, 255, 0);
+    font-size: 3vw;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#display-container2:hover > #display-title2{
+    color: rgb(255, 255, 255);
+}
+
+/* General */
+.group{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+
+
+
+/* Break Points */

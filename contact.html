@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Nunito|Montserrat">
+    <link rel="stylesheet" href="contact.css" type="text/css">
+    <link rel="stylesheet" href="general.css" type="text/css">
+    <script type="text/javascript" src="contact.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <title> Jacky Chen </title>
+    <title> Contact </title>
+</head>
+<body>
+    <nav class="header">
+
+        <!-- My Logo Container -->
+        <div class="logoContainter">
+            <div class="group">
+                <img class="logo" src="Icon/Unhelpful.png">
+                <a href="index.html"><p id="heading"> Unhelpful </p></a>
+            </div>
+        </div>
+
+        <!-- Button Navigation -->
+        <div class="navButtonContainer">
+            <a href="profile.html"><button class="navButton" id="Profile"> Profile </button></a>
+            <a href="resume.html"><button class="navButton" id="Experience"> Experience </button></a>
+            <a href="project.html"><button class="navButton" id="Projects"> Projects </button></a>
+            <a href="interest.html"><button class="navButton" id="Interest"> Interest </button></a>
+        </div>
+
+    </nav>
+    
+    <div id="contact-container">
+        <div id="title-container">
+            <p id="title">
+                E<br>
+                M<br>
+                A<br>
+                I<br>
+                L
+            </p>
+        </div>
+        <img id="contact-img" src="Icon/mail.png">
+        <div id="mail-container">
+            <center>
+            <table>
+                <tr>
+                    <th><p class="input-desc" id="name-title"> Name*: </p></th>
+                    <th><input class="input" id="name-input" type="text" placeholder="Name"></th>
+                </tr>
+                <tr>
+                    <th><p class="input-desc" id="email-title"> Email*: </p></th>
+                    <th><input class="input" id="email-input" type="text" placeholder="name@mail.com"></th>
+                </tr>
+                <tr>
+                    <th><p class="input-desc" id="phone-title"> Phone: </p></th>
+                    <th><input class="input" id="phone-input" type="text" placeholder="1111111111"></th>
+                </tr>
+            </table>
+            <p class="input-desc" id="message-title"> *Message* </p>
+            <textarea class="input" id="message-input" type="text" placeholder="Text Message Goes Here"></textarea>
+            <br>
+            <button id="submit-contact" onclick="sendmessage()"> Send Message </button>
+            </center>
+        </div>
+    </div>
+
+    <div id="contact-container-small">
+        <div id="title-container-small">
+            <p id="title-small">
+                L<br>
+                I<br>
+                N<br>
+                K<br>
+                E<br>
+                D<br>
+                I<br>
+                N<br>
+            </p>
+        </div>
+        <img id="contact-img-small" src="Icon/linkedin.png">
+        <div id="linkedin">
+            <a id="ref-text" href="https://www.linkedin.com/in/jackychen0422/"> LinkedIn Page </a>
+        </div>
+    </div>
+
+
+</body>
+</html>

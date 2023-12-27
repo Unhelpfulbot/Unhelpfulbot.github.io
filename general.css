@@ -1,0 +1,93 @@
+.header{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid rgb(50, 50, 50) 2px;
+}
+
+.logoContainter{
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 32px;
+    height: 32px;
+    margin: 4px;
+    padding: 0;
+}
+
+#heading{
+    font-size: 1.5vw;
+    color: white;
+    margin: 4px;
+    margin-left: 8px;
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+
+.navButtonContainer{
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    height: 100%;
+}
+
+.navButton{
+    float: right;
+    height: 80%;
+    width: 10%;
+    margin: 5px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    color: white;
+    background: none;
+    border: none;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.navButton:hover{
+    color: rgb(161, 0, 161);
+}
+
+/* General */
+.group{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-pos{
+    position: relative;
+    display: flex;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+a{
+    text-decoration: none;
+}
+
+#white-horizontal-divider{
+    background: white;
+    border: white solid 0.2vw;
+}

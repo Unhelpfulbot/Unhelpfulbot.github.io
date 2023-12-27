@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Nunito|Montserrat">
+    <link rel="stylesheet" href="project.css" type="text/css">
+    <link rel="stylesheet" href="general.css" type="text/css">
+    <title> Project </title>
+</head>
+<body>
+    
+    <nav class="header">
+
+        <!-- My Logo Container -->
+        <div class="logoContainter">
+            <div class="group">
+                <img class="logo" src="Icon/Unhelpful.png">
+                <a href="index.html"><p id="heading"> Unhelpful </p></a>
+            </div>
+        </div>
+
+        <!-- Button Navigation -->
+        <div class="navButtonContainer">
+            <a href="profile.html"><button class="navButton" id="Profile"> Profile </button></a>
+            <a href="resume.html"><button class="navButton" id="Experience"> Experience </button></a>
+            <a href="project.html"><button class="navButton" id="Projects"> Projects </button></a>
+            <a href="interest.html"><button class="navButton" id="Interest"> Interest </button></a>
+        </div>
+
+    </nav>
+
+    <div class="current-proj">
+        <h1 id="title"> Current Projects </h1>
+    </div>
+    <div id="proj-container">
+        <div id="columns">
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/rpi.png">
+                    <p id="proj-title"> Computer Vision & Mechanic Arm Research </p>
+                </div>
+                <p id="proj-desc">
+                    Researching computer vision to implement into Mechanic Arms 
+                    to grant robotic arm's measureable with 3D models for more precise operations.
+                    Currently still understanding and determining methods to use that can generate
+                    measureables with the 3D model. Guassin Splatting, NERF, and Photogrammery are 
+                    the primary methods at this time. Next Step will be to train the models to generate
+                    precise 3D model output with dimensions. 
+                </p>
+            </div>
+            <div id="project">
+                <div class="proj-group">
+                    <p id="proj-title"> More Coming... </p>
+                </div>
+                <p id="proj-desc"> I am always open to learn new skills, if there are any interesting projects
+                    that I can be apart of, please contact me.
+                </p>    
+            </div>
+        </div>
+        <div id="columns">
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/Unhelpful.png">
+                    <p id="proj-title"> Personal Website </p>
+                </div>
+                <p id="proj-desc">
+                    Developing and formulating a new website with a simple design,
+                     but with different features, which can be easily redesign in the future.
+                    The goal of the website was to display my resume in a form that is more interactive
+                    so it is not just a file with words.
+                </p>
+            </div>
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/python.png">
+                    <p id="proj-title"> Chat Bot </p>
+                </div>
+                <p id="proj-desc">
+                    Researching about machine learning and large language models to create a chat bot.
+                    This will expand by knowledge in the computer science field since LLM are used for almost everything.
+                    Espically when it comes to automation, which makes learning this skill valueable.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="past-proj">
+        <h1 id="title"> Past Projects </h1>
+    </div>
+    <div id="proj-container">
+        <div id="columns">
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/rpi.png">
+                    <p id="proj-title"> Anti-Fluttering Control System Report</p>
+                </div>
+                <p id="proj-desc">
+                    Used MATLAB’s modeling a control system extension to create Bode, Root Locus, and Pole Zero plots.
+                    Then analyze the graphs/plots and laplacing given equations to determine the velocity when fluttering occurs.
+                    Using the given and determined variables to create the sensor's transfer function, which is applied in aeroelastic
+                     motion equation, with given coefficients, to determine the wing transfer function. From the transfer function 
+                     develop a controller to minimize settling time and angle of the wing
+                </p>
+            </div>
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/robogrow.png">
+                    <p id="proj-title"> RoboGrow </p>
+                </div>
+                <p id="proj-desc"> 
+                    Used NX to design the cart and track with teammates and laser cuts wood segment for assembling.
+                    After designing the parts, the cart was controlled by an Arduino board to take data from the sensor 
+                    and conditions which my teamates and I coded onto the board. Finally designed a RoboGrow Website to provide
+                    information but also acts as an app to adjust conditional variables. 
+                </p>
+                <a id="proj-desc" href="https://unhelpfulbot.github.io/RoboGrow/"> RoboGrow Website </a> 
+            </div>
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/rpi.png">
+                    <p id="proj-title"> Marshmellow Launcher </p>
+                </div>
+                <p id="proj-desc"> 
+                    Using Solidworks, created a general 3D model of the launcher's design then gather parts from the workshops and hardware stores.
+                    The team decided to use a pvc motor design, so the accuracy of the launcher would be more consistent. As a result, the design requires
+                    a strong foundation to counteract the recoil from launching. With the final design, parts were machined into CAD dimensions and then assembled.
+                    Modifcation on the launcher were required after testing the launcher, espically when it came to the launch angle. 
+                </p>
+                <img id="proj-display-img" src="Image/LauncherDesign.png">
+            </div>
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/noaa.png">
+                    <p id="proj-title"> 2D Satellite Image to 3D Model  </p>
+                </div>
+                <p id="proj-desc"> 
+                    During the GOES-R Hackathon, my team of four created a mobile app that converted 2D satellite images to 3D CAD files.
+                    This allowed satellite images to be 3D printed, which makes it easier to understand than an infrared image or something.
+                    For the converter, there were already software that allowed 2D conversion to 3D so that was what we used since we only had
+                    two days to develop an application from scratch. Ultimately, we got first place with our idea to display 2D images in a 3D format. 
+                </p>
+                <a id="proj-desc" href="https://www.goes-r.gov/users/hackathon.html"> Hackathon Page </a> 
+            </div>
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/discord.png">
+                    <p id="proj-title"> Discord Bot </p>
+                </div>
+                <p id="proj-desc">
+                    The discord bot I created didn't do a lot but included basic python code with the usage of loops, arrays, and conditional statements.
+                     During the summer of 2022 I was enrolled in SYEP, summer youth employment program, I was placed to work at the Department of Motor Vechile.
+                      There was four other SYEP workers and we decided to communicate through discord. I decided to create a bot that send annoucment during certain
+                     time of the day like when it's lunch break, when break is over, when it's time to leave, and when to start working. 
+                     In addition, the bot also has a reaction tracker which was used for determining who was in the building or who went out or stayed in for lunch.
+                </p>
+                <a id="proj-desc" href="https://replit.com/@Unhelpfulbot/Discordbot#main.py"> Simple Bot's Code </a>
+
+            </div>
+        </div>
+        <div id="columns">
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/rpi.png">
+                    <p id="proj-title"> Simulating Stress & Strain </p>
+                </div>
+                <p id="proj-desc">
+                    Used NX Nastran and NX to design 3D components, then set up the meshes to applied loads and restraints. With the model,
+                    loads, and restraints run a simulation to determine stress and deflections. For simpler 2D representations, matrices were 
+                    used to hand calculate the displacement and unknown reaction force
+
+                </p>
+            </div>
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/rpirobotic.png">
+                    <p id="proj-title"> Art Installation </p>
+                </div>
+                <p id="proj-desc">
+                    A robotic device that senses motion to initiate motors to fold a 3D printed origami fabric. 
+                    Currently, the device is still in the prototype stage, we are testing and adjusting the dimensions of the units.
+                </p>
+            </div>
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/Unhelpful.png">
+                    <p id="proj-title"> Personal Website </p>
+                </div>
+                <p id="proj-desc">
+                    Created two personal website with terrible layouts to display my skills and information on my resume. Due to
+                    not having a clear design in mind the website just ahve features but looks plain and simple. The websites were hard coded
+                    with HTML, CSS, and JavaScript. 
+                </p>
+                <a id="proj-desc" href="https://unhelpfulbot.github.io/Website/MyWebsite.html"> First Personal Website </a>
+                <br>
+                <a id="proj-desc" href="https://unhelpfulbot.github.io/"> Second Personal Website </a>
+            </div>
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/Unhelpful.png">
+                    <p id="proj-title"> 2D Game Development </p>
+                </div>
+                <p id="proj-desc">
+                    Created two 2D Unity games, to begin my journey into programming. Learnt the fundemental of Unity and C# by using YouTube
+                    as a resource. First game was multiplayer but ran into a lot of bugs when it comes to the multiplayer aspect. However, the goal
+                    was to create a game, where my friends would be able to play. The game worked but causes screen flickering which made it annoying.
+                    Therefore, the first game I created was used to teach me the basic of game creation. The second game was a single player RPG game where
+                    the player goes around killing monster and then beat bosses.
+                </p>
+                <a id="proj-desc" href="https://play.unity.com/mg/other/upon-them-v1-0"> Upon Them [First] </a>
+                <br>
+                <a id="proj-desc" href="https://play.unity.com/mg/other/terrorise-game"> TerroRise [Second] </a>
+            </div>
+            <div id="project">
+                <div class="proj-group">
+                    <img id="proj-img" src="Icon/rpi.png">
+                    <p id="proj-title"> Toy Cannon </p>
+                </div>
+                <p id="proj-desc">
+                    Created a toy cannon using an aluminum block and rod with machining and measurement tools. Measuremnt tools 
+                    were used to mark the dimension for cuts and depth. After marking the measureables, machines like the lathe, drill press,
+                    veritcal mills, horizontal mills, and polisher were used to created the right geometry. Ultimately, the parts were screw together
+                    after threading the screw holes.
+                </p>
+                <div id="proj-loop">
+                    <img id="proj-display-img" src="Image/cannonfront.jpeg">
+                    <img id="proj-display-img" src="Image/cannonleft.jpeg">
+                    <img id="proj-display-img" src="Image/cannonback.jpeg">
+                    <img id="proj-display-img" src="Image/cannonright.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+#contact-container{
+    display: flex;
+    width: 90vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 40vw;
+    margin-top: 5vh;
+    border: solid rgb(0, 187, 255) 0.75vw;
+    border-radius: 5vw;
+}
+
+#contact-container-small{
+    display: flex;
+    width: 90vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 14vw;
+    margin-top: 5vh;
+    border: solid rgb(0, 94, 255) 0.75vw;
+    border-radius: 4vw;
+}
+
+#title-container{
+    align-self: center;
+    display: flex;
+    width: 5vw;
+    height: 40vw;
+    align-items: center;
+    border-top-left-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+    background: rgb(0, 187, 255);
+}
+
+#title-container-small{
+    align-self: center;
+    display: flex;
+    width: 4vw;
+    height: 14vw;
+    align-items: center;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    background: rgb(0, 94, 255);
+}
+
+#title-small{
+    display: flex;
+    font-family: "Oswald";
+    font-size: 1vw;
+    font-weight: 700;
+    margin-left: 1.5vw;
+    color: white;
+    text-align: center;
+}
+
+#title{
+    margin-left: 0.5vw;
+    display: flex;
+    font-family: "Oswald";
+    font-size: 4vw;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+#contact-img{
+    width: 30vw;
+    height: 30vw;
+    margin: 5vw;
+}
+
+#contact-img-small{
+    width: 10vw;
+    height: 10vw;
+    margin: 2vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+#mail-container{
+    width: 55vw;
+    height: 36vw;
+    margin: 2vw;
+    margin-right: 5vw;
+    margin-left: 0;
+    overflow-y: scroll;
+}
+
+.input-desc{
+    color: white;
+    font-size: 1.5vw;
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-right: 2vw;
+}
+
+.input{
+    background: black;
+    color: white;
+    border: none;
+    font-size: 1.5vw;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+#message-input{
+    width: 40vw;
+    max-width: 42vw;
+    height: 20vh;
+    font-size: 1vw;
+    text-align: center;
+}
+
+#submit-contact{
+    background: rgb(35, 35, 35);
+    margin-top: 2vh;
+    border-radius: 3.5vw;
+    border: solid white 4px;
+    height: 7vw;
+    width: 14vw;
+    color: white;
+    font-size: 2vw;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+#linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ref-text{
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 4vw;
+}

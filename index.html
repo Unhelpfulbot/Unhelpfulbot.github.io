@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Nunito|Montserrat">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="general.css" type="text/css">
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="imagestorage.js"></script>
+    <script type="text/javascript" src="hachistorage.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <title> Jacky Chen </title>
+</head>
+
+<body id="colorchange">
+    <!-- Header -->
+    <nav class="header">
+
+        <!-- My Logo Container -->
+        <div class="logoContainter">
+            <div class="group">
+                <img class="logo" src="Icon/Unhelpful.png">
+                <a href="index.html"><p id="heading"> Unhelpful </p></a>
+            </div>
+        </div>
+
+        <!-- Button Navigation -->
+        <div class="navButtonContainer">
+            <a href="profile.html"><button class="navButton" id="Profile"> Profile </button></a>
+            <a href="resume.html"><button class="navButton" id="Experience"> Experience </button></a>
+            <a href="project.html"><button class="navButton" id="Projects"> Projects </button></a>
+            <a href="interest.html"><button class="navButton" id="Interest"> Interest </button></a>
+        </div>
+
+    </nav>
+
+    <!-- Default Screen (First Page) -->
+    <div class="default-screen">
+        <!-- In-line Container -->
+        <div class="group" id="intro">
+            <!-- Potrait -->
+            <img id="potrait" src="Image/Jacky.jfif">
+            <!-- Short Bio -->
+            <div id="short-desc">
+                <h1 id="desc-title"> Hey, I'm Jacky </h1>
+                <p id="desc-text"> I am a Mechanical Engineer, with an
+                    interest in an automotive, aeronautical, aerospace,
+                    and robotics industries. I am currently studying at
+                    Rensselaer Polytechnic Institute as a junior with an 
+                    anticipated graduation in May 2025.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button Director -->
+    <nav id="director">
+        <a class="directbutton-container" href="resume.html"><button class="directbutton" id="Resume"> View My Resume </button></a>
+        <a class="directbutton-container" href="project.html"><button class="directbutton" id="Project"> Projects </button></a>
+        <a class="directbutton-container" href="contact.html"><button class="directbutton" id="Contact"> Contact Me </button></a>
+    </nav>
+
+    <!-- Default Screen (Second Page) -->
+    <!-- Title -->
+    <h1 id="second-title"> Upcoming Projects </h1>
+
+    <!-- Project Display -->
+    <div class="second-screen">
+        <div id="coming-proj">
+            <div id="img-caption">
+                <img id="proj-img" src="Image/computervision.jfif">
+                <button class="proj-button" id="research"> Computer Vision with Mechanic Arms </button>
+            </div>
+            <div id="img-caption">
+                <img id="proj-img" src="Image/webdevelopmen.jpg">
+                <button class="proj-button" id="website"> Website Development </button>
+            </div>
+            <div id="img-caption">
+                <img id="proj-img" src="Image/pythonbg.jpg">
+                <button class="proj-button" id="research"> Chat Bot </button>
+            </div>
+            <div id="img-caption">
+                <img id="proj-img" src="Image/computervision.jfif">
+                <button class="proj-button" id="research"> Computer Vision with Mechanic Arms </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Default Screen (Third Page) -->
+    <!-- Title and Description-->
+    <h1 id="third-title"> Photos </h1>
+    <p id="third-desc"> I enjoy learning about photography and from time to time,
+        I will take photos of the environment around me. This is just a photo dump.
+    </p>
+
+    <nav id="gallery-col"> 
+        <button id="col-but" onclick="one()"><img id="col-img" src="Icon/1.png"></button>
+        <button id="col-but" onclick="two()"><img id="col-img" src="Icon/2.png"></button>
+        <button id="col-but" onclick="four()"><img id="col-img" src="Icon/4.png"></button>
+    </nav>
+
+    <!-- Photo Grid -->
+    <div class="third-screen" id="img-display">
+        <div class="columns" id="col1">
+
+        </div>
+        <div class="columns" id="col2">
+
+        </div>
+        <div class="columns" id="col3">
+
+        </div>
+        <div class="columns" id="col4">
+
+        </div>
+    </div>
+    <button id="load-more" onclick="loadmore()"> Load More </button>
+
+    <!-- Default Screen (Fourth Page) -->
+    <!-- Title and Description-->
+    <h1 id="fourth-title"> King Hachi </h1>
+    <p id="fourth-desc"> 
+        Breed: Pomeranian
+        <br>
+        Age: 10
+        <br>
+        My cute, beautiful, and always energetic dog.
+        <br>
+    </p>
+    <div class="fourth-screen" id="img-display">
+        <div class="columns2" id="hachi-col1">
+
+        </div>
+        <div class="columns2" id="hachi-col2">
+
+        </div>
+    </div>
+    <button id="load-more" onclick="loadmore2()"> Load More </button>
+
+</body>
+
+</html>
